@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .main {
@@ -37,7 +38,7 @@ ul {
     margin-top: 0.4em;
 }
 
-svg {
+.sidebar svg {
     position: relative;
     top: 0.25em;
     height: 1.2em;
@@ -49,17 +50,28 @@ svg path {
     fill: currentColor;
 }
 
+.sidebar>h1>svg {
+    height: 2em;
+    top: 0.6em;
+}
+
 header {
     grid-area: header;
-    box-shadow: 0px 4px 2px -2px grey;
+    box-shadow: 0px 5px 2px -2px grey;
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+    padding: 20px 40px;
+}
+
+header svg,
+header img {
+    height: 1.7rem;
 }
 
 .header-top {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .header-top>input {

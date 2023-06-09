@@ -6,7 +6,6 @@
     grid-template-areas:
         "sidebar header"
         "sidebar content";
-
 }
 
 ul {
@@ -31,14 +30,6 @@ ul {
     font-size: 25px;
 }
 
-header {
-    grid-area: header;
-    box-shadow: 0px 4px 2px -2px grey;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-}
-
 svg {
     position: relative;
     top: 0.25em;
@@ -49,6 +40,14 @@ svg {
 
 svg path {
     fill: currentColor;
+}
+
+header {
+    grid-area: header;
+    box-shadow: 0px 4px 2px -2px grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 
 .header-top {

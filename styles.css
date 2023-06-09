@@ -34,6 +34,7 @@ ul {
 
 .sidebar>ul>li {
     font-size: 25px;
+    margin-top: 0.4em;
 }
 
 svg {

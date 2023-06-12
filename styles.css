@@ -169,7 +169,7 @@ header svg,
 
 .main-card {
     background-color: white;
-    padding: 2rem 1.3rem;
+    padding: 2rem 1.3rem 1rem 1.3rem;
     border-radius: 10px;
     box-shadow: 3px 3px 3px grey;
     height: 230px;
@@ -177,6 +177,7 @@ header svg,
     display: grid;
     grid-template-columns: 1fr 2rem 2rem 2rem;
     grid-template-rows: 1fr 2rem;
+    gap: 1rem;
 }
 
 .main-card .content-wrapper {

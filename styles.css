@@ -5,6 +5,13 @@
     font-size: 20px;
 }
 
+p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     height: 100vh;
     display: grid;
@@ -61,11 +68,19 @@ header {
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    padding: 20px 40px;
+    padding: 0px 40px 20px 40px;
+}
+
+.search-bar {
+    border: 0;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding: 0px 1rem;
 }
 
 header svg,
-header img {
+.header-top img {
     height: 1.7rem;
 }
 
@@ -86,4 +101,30 @@ header img {
 
 .header-bottom>.greeting {
     margin-right: auto;
+}
+
+.header-bottom button {
+    width: 6.2rem;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    border: 0;
+    background-color: #06b6d4;
+    color: white;
+}
+
+.header-bottom img {
+    height: 3rem;
+}
+
+.introduction {
+    margin-right: auto;
+}
+
+.introduction p {
+    justify-content: flex-start;
+}
+
+.username {
+    font-size: 1.6rem;
+    font-weight: bold;
 }
